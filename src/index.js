@@ -33,7 +33,7 @@ function renderCountryList(countries) {
       .map(({ name, flags}) => {
         return `
             <li class = "list__item">
-            <img class = "list__img" src="${flags.svg}" alt="Flag of ${name.official}" width="30" hight="20">
+            <img class = "list__img" src="${flags.svg}" alt="Flag of ${name.official}" width="40" hight="30">
             <p class = "list__name">${name.official}</p>
             </li>
         `;
